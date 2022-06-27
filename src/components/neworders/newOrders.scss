@@ -1,0 +1,28 @@
+.table-container {
+    
+
+    .img-wrapper {
+        display: flex;
+        gap: 5px;
+
+        img{
+            width: 1.5rem;
+            height: 1.5rem;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    } 
+    .status {
+        border-radius: 3px;
+        padding: 5px;
+
+        &.Approved {
+            color: green;
+            background-color: rgba(0, 128, 0, 0.178);
+        }
+        &.Pending {
+            color:goldenrod;
+            background-color: rgba(218, 165, 32, 0.158);
+        }
+    }
+}

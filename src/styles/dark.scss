@@ -1,0 +1,125 @@
+.app.dark {
+    background-color: black;
+
+    .sidebar {
+        border-right: 0.5px solid #2c2b28;
+        .top {
+            border-bottom:0.5px solid #2c2b28; 
+        }
+        .middle {
+            ul {
+                li {
+                    color: gray;
+                }
+            }
+        }
+    }
+
+    .navbar {
+        border-bottom: 0.5px solid #2c2b28;
+        .search-container {
+            border: 0.5px solid #2c2b28;
+            input {
+                color: lightgray;
+                
+            }
+        }
+
+    }
+
+    .widget {
+        -webkit-box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11); 
+        box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11);
+
+        .title {
+            color: gray;
+        }
+    }
+
+    .charts {
+        .feature {
+            -webkit-box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11); 
+            box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11);
+
+            .circle {
+                .CircularProgressbar-path {
+                    stroke: #DF7861;
+                  }
+                
+            }
+            .info {
+                color: gray;
+            }
+        }
+        .chart {
+            -webkit-box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11); 
+            box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11);
+
+        }
+    }
+
+     .table {
+        -webkit-box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11); 
+            box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11);
+        .table-container {
+
+            .table {
+                background-color: black;
+                stroke: gray;
+                .table-cell {
+                    color: gray
+    
+                }
+            }
+        }
+     }
+   
+     .datatable{
+         .data-grid {
+             color: gray;
+             border: none;
+             .status {
+                &.active,
+                &.pending,
+                &.passive {
+                    color: gray;
+                    background-color: transparent;
+                }
+             }
+             .actions {
+                button {
+                    &.view,
+                    &.delete {
+                        color: gray;
+                        background-color: transparent; 
+                        border: none;
+                    }
+                }  
+            }
+         }
+
+     }
+
+     .new {
+        .container {
+    
+            .content {
+                .top {
+                    -webkit-box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11); 
+                    box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11); 
+                }
+                .bottom {
+                    -webkit-box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11); 
+                    box-shadow: 1px 1px 5px 5px rgba(233, 233, 233, 0.11);  
+                    .form-area {
+                        .input-group {
+                            label {
+                                color: gray;
+                            }
+                        }
+                    }
+                }
+            }
+         }
+    }
+}

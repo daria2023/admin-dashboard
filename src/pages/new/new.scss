@@ -1,0 +1,84 @@
+.new {
+    display: flex;
+    
+    .container {
+        flex: 5;
+
+        .content {
+            padding: 1rem;
+            
+            .top {
+                -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.32); 
+                box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.32);
+                .title {
+                    color: lightgray;
+                    padding: 0.5rem;
+                }
+            }
+
+            .bottom {
+                display: flex;
+                -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.32); 
+                box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.32);
+                gap: 1rem;
+                margin-top: 1rem;
+                padding: 1rem;
+
+                .img-container {
+                    flex: 1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img {
+                        height: 100px;
+                        width: 100px;
+                        object-fit: cover;
+                        border-radius: 50%;
+                    }
+                }
+
+                .form-area {
+                    flex: 2;
+
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 1rem;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .input-group {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+
+                        label,
+                        input {
+                            width: 100%;
+                            outline: none;
+                            border: none;
+                        }
+
+                        input {
+                            border-bottom: 1px solid gray;
+                            padding: 0.5rem 0.25rem;
+                            background-color: transparent;
+                        }
+                    }
+
+                    button {
+                        text-transform: capitalize;
+                        width: 150px;
+                        padding: 0.5rem 1rem;
+                        background-color: #DF7861;
+                        border: none;
+                        cursor: pointer;
+                        border-radius: 5px;
+                    }
+
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,70 @@
+.datatable {
+    padding: 1rem;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: gray;
+        margin-bottom: 1rem;
+
+        button {
+            background-color: #fff;
+            color: #DF7861;
+            background-color: #df78612c;
+            border-radius: 5px;
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    .user {
+        display: flex;
+        gap: 0.5rem;
+        img {
+            width: 1.5rem;
+            height: 1.5rem;
+            border-radius: 50%;
+        }
+    }
+
+    .status {
+        border-radius: 3px;
+        padding: 5px;
+
+        &.active {
+            color: green;
+            background-color: rgba(0, 128, 0, 0.178);
+        }
+
+        &.pending {
+            color:goldenrod;
+            background-color: rgba(218, 165, 32, 0.158);
+        }
+
+        &.passive {
+            color: red;
+            background-color: rgba(255, 0, 0, 0.144);
+        }
+    }
+
+    .actions {
+        button {
+            border-radius: 3px;
+            padding: 3px;
+            margin-right: 0.5rem;
+            background-color: transparent;
+            cursor: pointer;
+            &.view {
+                border: 1px solid rgba(0, 128, 0, 0.164) ;
+                color: green;
+            }
+            &.delete {
+                border: 1px solid  rgba(255, 0, 0, 0.199);
+                color: red;
+            }
+        }
+
+    }
+}
